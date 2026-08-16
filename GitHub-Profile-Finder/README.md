@@ -4,6 +4,14 @@ A minimal, professional developer tool built to search, discover, and inspect Gi
 
 ---
 
+## 🚀 Live Demo
+
+**[▶ View GitHub Profile Finder Live](https://github-profile-finder-jk.netlify.app)**
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d03528a5-085f-4e92-9341-47fb24cae0bc/deploy-status)](https://app.netlify.com/projects/github-profile-finder-jk/deploys)
+
+---
+
 ## 🔍 Overview
 
 This application communicates directly with the GitHub REST API to retrieve developer details and public repositories. It implements client-side caching, local storage history search tracking, and visual feedback for sharing or copying links.
@@ -133,17 +141,3 @@ The interface adapts dynamically across standard viewports using clean CSS media
      # Python 3
      python -m http.server 8000
      ```
-
----
-
-## 🔮 Future Improvements
-
-- **Pagination & Load More**: Add pagination indicators to fetch more than 100 repositories.
-- **Debounced Inputs**: Add text search debouncing to throttle repository list re-rendering.
-- **Extended Statistics**: Implement charts representing language usage percentages using SVG overlays.
-
----
-
-## 📝 What I Learned
-
-During this project, I strengthened my skills in writing clean, modular vanilla JavaScript. I learned the importance of organizing codebase files cleanly, implementing defensive memory caching to conserve API quotas, and designing custom focus borders to build highly interactive developer utilities that look clean on mobile-first displays.
